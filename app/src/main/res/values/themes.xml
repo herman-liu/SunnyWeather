@@ -15,8 +15,10 @@
     </style>
 
     <style name="ThemeWeatherActivity" parent="Theme.SunnyWeather">
-
         <item name="android:windowTranslucentStatus">true</item>
+    </style>
 
+    <style name="Theme.SunnyWeather.Button" parent="Widget.AppCompat.Button.Colored">
+        <item name="colorPrimary">@color/white</item>
     </style>
 </resources>
