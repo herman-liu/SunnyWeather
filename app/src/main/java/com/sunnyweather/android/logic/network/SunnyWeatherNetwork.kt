@@ -1,5 +1,6 @@
 package com.sunnyweather.android.logic.network
 
+import com.sunnyweather.android.SunnyWeatherApplication
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -26,7 +27,7 @@ object SunnyWeatherNetwork {
 
     //default weather service
     private val defaultWeatherService = Retrofit.Builder()
-        .baseUrl("http://192.168.31.60/")
+        .baseUrl(SunnyWeatherApplication.LOCAL_BASE_URL)
         .addConverterFactory(GsonConverterFactory.create())
         .build()
         .create(WeatherService::class.java)

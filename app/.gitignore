@@ -1,1 +1,5 @@
 /build
+/src/test
+/src/androidTest
+/src/main/java/com/sunnyweather/android/local.kt
+/src/main/java/com/sunnyweather/android/test.kt

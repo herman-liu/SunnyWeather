@@ -74,7 +74,7 @@ class PlaceFragment : Fragment() {
                 viewModel.placeList.addAll(places)
                 adapter.notifyDataSetChanged()
             } else {
-                R.string.placefrag_toast_no_place_find.makeToast()
+                "未查询到任何地点".makeToast()
                 result.exceptionOrNull()?.printStackTrace()
             }
         })

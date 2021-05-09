@@ -11,13 +11,13 @@ class SunnyWeatherApplication : Application() {
         @SuppressLint("StaticFieldLeak")
         lateinit var context: Context
 
-        //TOKEN for caiyunapp api to access related resources
-        const val TOKEN = "TAkhjf8d1nlSlspN"
-
+        const val TOKEN = L_TOKEN
+        const val LOCAL_BASE_URL = L_LOCAL_BASE_URL
     }
 
     override fun onCreate() {
         super.onCreate()
         context = applicationContext
     }
+
 }
