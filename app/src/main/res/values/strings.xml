@@ -2,4 +2,11 @@
     <string name="app_name">SunnyWeather</string>
     <string name="hint_search_place">输入地址</string>
     <string name="placefrag_toast_no_place_find">未查询到任何地点</string>
+    <string name="text_splitter">|</string>
+    <string name="label_forecast">预报</string>
+    <string name="label_life_index">生活指数</string>
+    <string name="label_cold_risk">感冒</string>
+    <string name="label_dressing">穿衣</string>
+    <string name="label_ultraviolet">实时紫外线</string>
+    <string name="label_car_washing">洗车</string>
 </resources>

@@ -13,7 +13,7 @@
         />
 
     <FrameLayout
-        android:id="@+id/anctionBarLayout"
+        android:id="@+id/actionBarLayout"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:background="?attr/colorPrimary">
@@ -29,6 +29,7 @@
             android:paddingEnd="10dp"
             android:hint="@string/hint_search_place"
             android:background="@drawable/search_bg"
+            android:textColor="@color/black"
             />
 
     </FrameLayout>
@@ -37,7 +38,7 @@
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/anctionBarLayout"
+        android:layout_below="@id/actionBarLayout"
         android:visibility="gone"
         />
 
